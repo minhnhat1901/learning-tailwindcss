@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="bg-gray-300 font-sans">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-2xl font-bold">My TailwindCSS Page</h1>
+    </header>
+
+    <main class="p-6">
+        <p class="text-gray-700 text-lg">
+            Welcome to my webpage styled with TailwindCSS. Let's explore its features together!
+        </p>
+        <button class="mt-4 px-4 py-2 bg-green-500 text-white rounded-lg shadow-red-800 shadow-lg hover:bg-green-600 focus:ring-2 focus:ring-green-400">
+            Click Me!
+        </button>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+            <div class="bg-white p-4 rounded shadow">
+            <h2 class="text-xl font-semibold">Card 1</h2>
+            <p class="text-gray-600">This is a simple card with text.</p>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="text-xl font-semibold">Card 2</h2>
+                <p class="text-gray-600">Another card with more text.</p>
+            </div>
+            
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="text-xl font-semibold">Card 3</h2>
+                <p class="text-gray-600">Yet another card!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-2">
+        <p>© 2025 My TailwindCSS Page</p>
+    </footer>
 </body>
 </html>
